@@ -2,7 +2,7 @@
 
 ### Project Scope
 
-Using the online check-in service guests can get the details about how to access the properties. Entering a valid booking reference and the last name of the reservation guest they are able to retrive the booking details and complete the online check-in.
+Using the online check-in service guests can get the details about how to access the properties. Entering a valid booking reference and the last name of the reservation a guest is able to retrive the booking details and complete the online check-in.
 
 Core features:
 
@@ -16,22 +16,25 @@ Core features:
 * the service was adapted for the task and you can retrive a booking using any combination of reservation reference/last name
 * do not consider any typos as a bug during the exercise.
 
-### Task #1: Finding Defects
 
-As a QA Engineer, what do you do? Of course, can you find out defects on the page shown below?
+## Tasks
 
-* [https://limehome-qa-task.herokuapp.com] (https://limehome-qa-task.herokuapp.com/)
+#### Task #1: Finding Defects
 
-### Task #2: Writing Test Scenarios
+As a QA Engineer, what do you do? Of course, can you find out any defects in the online check-in service?
 
-As a Engineer QA you do not only test, you develop test scenarios too. 
+* [https://limehome-qa-task.herokuapp.com](https://limehome-qa-task.herokuapp.com/)
+
+#### Task #2: Writing Test Scenarios
+
+As a QA Engineer you do not only test, you develop test scenarios too. 
 Write test scenarios for the online check-in service.
 
-### Task #3: Defect Reporting
+#### Task #3: Defect Reporting
 
-As a tester, the best part of the job is to report defects. We would like to know how you would report just **one** of the defect you found during the test.
+As a QA Engineer, the best part of the job is to report defects. We would like to know how you would report just **one** of the defect you found during the test.
 
-### Task #4: Automation (Bonus)
+#### Task #4: Automation (Bonus)
 
 
 

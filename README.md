@@ -36,7 +36,8 @@ As a QA Engineer, the best part of the job is to report defects. We would like t
 
 #### Task #4: Automation (Bonus)
 
-
+As a QA Engineer, can you creare a e2e automation who tests that the last name that the guest type in the first screen is equal to the one shown in the form screen?
+You can use any open source automation testing tool (ex. Nightwatch.js)
 
 ## Submission
 

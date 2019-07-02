@@ -32,11 +32,11 @@ Write test scenarios for the online check-in service.
 
 #### Task #3: Defect Reporting
 
-As a QA Engineer, the best part of the job is to report defects. We would like to know how you would report just **one** of the defect you found during the test.
+As a QA Engineer, create a defect/bug ticket. We would like to know how you would report just **one** of the defect you found during the test.
 
 #### Task #4: Automation (Bonus)
 
-As a QA Engineer, can you creare a e2e automation who tests that the last name that the guest type in the first screen is equal to the one shown in the form screen?
+As a QA Engineer, create a e2e automation who tests that the last name that the guest type in the first screen is equal to the one shown in the form screen?
 You can use any open source automation testing tool (ex. Nightwatch.js)
 
 ## Submission

@@ -8,7 +8,7 @@ Core features:
 
 * Retrive the reservation details using the reference number and guest last name
 * Capability to take/upload a picture of the passport that's a mandatory field for non-german nationalities  
-* Mobile/friendly web app
+* Mobile friendly web app
 * Needs to be bilingual (german / english)
 
 ### Notes
@@ -16,19 +16,18 @@ Core features:
 * the service was adapted for the task and you can retrive a booking using any combination of reservation reference/last name
 * do not consider any typos as a bug during the exercise.
 
-
 ## Tasks
 
-#### Task #1: Finding Defects
+#### Task #1: Writing Test Scenarios
+
+As a QA Engineer you do not only test, you develop test scenarios too. 
+Write test scenarios for the online check-in service.
+
+#### Task #2: Finding Defects
 
 As a QA Engineer, what do you do? Of course, can you find out any defects in the online check-in service?
 
 * [https://limehome-qa-task.herokuapp.com](https://limehome-qa-task.herokuapp.com/)
-
-#### Task #2: Writing Test Scenarios
-
-As a QA Engineer you do not only test, you develop test scenarios too. 
-Write test scenarios for the online check-in service.
 
 #### Task #3: Defect Reporting
 

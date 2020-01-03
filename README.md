@@ -35,7 +35,7 @@ As a QA Engineer, create a defect/bug ticket. We would like to know how you woul
 
 #### Task #4: Automation (Bonus)
 
-As a QA Engineer, create a e2e automation who tests that the last name that the guest type in the first screen is equal to the one shown in the form screen?
+As a QA Engineer, create a e2e automation who tests that the last name that the guest have typed in the first screen is equal to the one shown in the form screen?
 You can use any open source automation testing tool (e.g. Nightwatch.js)
 
 ## Submission

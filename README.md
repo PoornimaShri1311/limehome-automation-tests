@@ -36,15 +36,15 @@ As a QA Engineer, create a defect/bug ticket. We would like to know how you woul
 #### Task #4: Automation (Bonus)
 
 As a QA Engineer, create a e2e automation who tests that the last name that the guest typed in the first screen is equal to the one shown in the form screen?
-You can use any open source automation testing tool (e.g. Nightwatch.js)
+You can use any open source automation testing tool but we reccomend https://robotframework.org/
 
 ## Submission
 
 Once you're done:
 
 1. create a github/gitlab repository
-2. write your answers in a .md file
-3. (bonus done?) update the scripts in the repo 
+2. write your answers in a file and commit it
+3. (bonus done?) update the scripts in the repo and explain how to run it
 
 ## Final words
 

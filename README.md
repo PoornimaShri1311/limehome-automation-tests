@@ -38,6 +38,8 @@ As a QA Engineer, create a defect/bug ticket. We would like to know how you woul
 As a QA Engineer, create a e2e automation who tests that the last name that the guest typed in the first screen is equal to the one shown in the form screen?
 You can use any open source automation testing tool but we reccomend https://robotframework.org/
 
+* Once the automation is up and running, fill up the date of birth and also change the nationality to Denmark(DK)
+
 ## Submission
 
 Once you're done:
@@ -45,6 +47,7 @@ Once you're done:
 1. create a github/gitlab repository
 2. write your answers in a file and commit it
 3. (bonus done?) update the scripts in the repo and explain how to run it
+4. If you were a user, what would you like to change to have a better online check-in experience?
 
 ## Final words
 

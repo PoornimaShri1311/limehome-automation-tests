@@ -31,7 +31,7 @@ Prioritized from most important to least important, here are our evaluation crit
 
 We expect you to send us a link to your code on Gitlab or Github.
 
-Technology:
+### Technology:
 We recommend robotframework, but you can pick a different technology as well.
 
 If you have any questions or feedback about the challenge, don't hesitate to reach out to us: tech-hiring@limehome.com

@@ -8,7 +8,7 @@ As a QA Engineer, create a e2e automation with [robotframework.org](robotframewo
 
 ### Write a 1st end-to-end test
 - Opens the landing page http://juliemr.github.io/protractor-demo/
-- Verifies that the title is load "Super Calculator"
+- Verifies that the title is "Super Calculator"
 
 ### Write a 2nd end-to-end test
 - Opens the landing page http://juliemr.github.io/protractor-demo/

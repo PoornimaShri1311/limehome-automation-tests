@@ -2,8 +2,7 @@
 
 We appreciate your time and effort in completing the task. We believe that this task will give you an opportunity to showcase your abilities and and will help us to gain a better understanding of your approach to testing.
 
-As a guideline, we suggest that you spend no more than 2 hours on this task.
-
+We understand that your time is valuable, so we kindly request that you do not spend more than 3-4 hours on the challenge.
 
 
 ## Testing Challenge / Front End

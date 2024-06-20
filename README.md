@@ -6,7 +6,8 @@ We understand that your time is valuable, so we kindly request that you do not s
 
 
 ## Testing Challenge / Front End
-Your task is to design and implement automated tests for the calculator located at http://juliemr.github.io/protractor-demo/. The purpose of this task is to ensure that the calculator application functions as expected and meets the requirements. You should design a set of test cases to verify that the calculator functions correctly, and then write an automation script to execute those test cases.Your test cases should include a brief description of the test, the test data used, the expected result, and any relevant notes or comments.
+
+Your task is to design and implement some scenarios for Search, Shopping (Add to cart and checkout) through product stories on http://automationpractice.pl/index.php. Please describe a basic test strategy and implement test scenarios. Implement 3-5 test cases with the highest priority from your point of view. 
 You should provide a detailed test report, including the test cases executed, test results, and any issues encountered during the testing process.
 
 ## Testing Challenge / Back End
@@ -26,7 +27,7 @@ your task is to write a test suite for the API endpoint https://api.limehome.com
 We expect you to send us a link to your code on Gitlab or Github.
 
 ### Technology:
-We recommend Cypress, but you can use any testing methodology or tool that you prefer.
+We recommend Playwright, but you can use any testing methodology or tool that you prefer.
 
 If you have any questions or feedback about the challenge, don't hesitate to reach out to us: tech-hiring@limehome.com
 Good luck with the challenge! We are looking forward to your solution!

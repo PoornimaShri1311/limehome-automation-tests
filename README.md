@@ -4,20 +4,16 @@ We appreciate your time and effort in completing the task. We believe that this 
 
 We understand that your time is valuable, so we kindly request that you do not spend more than 3-4 hours on the challenge.
 
-
 ## Testing Challenge / Front End
 
 Your task is to design and implement some scenarios for Search, Shopping (Add to cart and checkout) through product stories on http://automationpractice.pl/index.php. Please describe a basic test strategy and implement test scenarios. Implement 3-5 test cases with the highest priority from your point of view. 
 You should provide a detailed test report, including the test cases executed, test results, and any issues encountered during the testing process.
 
 ## Testing Challenge / Back End
-your task is to write a test suite for the API endpoint https://api.limehome.com/properties/v1/public/properties/129.
-
+Your task is to write a test suite for the API endpoint https://api.limehome.com/properties/v1/public/properties/129.
 
 - Write a test case to verify that the API endpoint returns a 200 OK response status code. If the response status code is anything other than 200, the test should  fail.
 - Write a test case to verify that the API endpoint returns the expected response body. The response body should contain details about the Limehome property with ID 129, including the property name, description, location, and other relevant details.
-
-
 
 ## What we check:
 - Test coverage: Have you designed sufficient number of test cases to cover various scenarios?
@@ -27,7 +23,8 @@ your task is to write a test suite for the API endpoint https://api.limehome.com
 We expect you to send us a link to your code on Gitlab or Github.
 
 ### Technology:
-We recommend Playwright, but you can use any testing methodology or tool that you prefer.
+We strongly recommend Playwright, but you can use any testing methodology or tool that you prefer.
 
-If you have any questions or feedback about the challenge, don't hesitate to reach out to us: tech-hiring@limehome.com
+If you have any questions or feedback about the challenge, don't hesitate to reach out to us!
+
 Good luck with the challenge! We are looking forward to your solution!

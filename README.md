@@ -6,7 +6,7 @@ We understand that your time is valuable, so we kindly request that you do not s
 
 ## Testing Challenge / Front End
 
-Your task is to design and implement some scenarios for Search, Shopping (Add to cart and checkout) through product stories on http://automationpractice.pl/index.php. Please describe a basic test strategy and implement test scenarios. Implement 3-5 test cases with the highest priority from your point of view. 
+Your task is to design and implement some scenarios for Search, Shopping (Add to cart and checkout) through product stories on https://www.limehome.com/suites?property=129&guests=1&rooms=1. Please describe a basic test strategy and implement test scenarios. Implement 3-5 test cases with the highest priority from your point of view. 
 You should provide a detailed test report, including the test cases executed, test results, and any issues encountered during the testing process.
 
 ## Testing Challenge / Back End

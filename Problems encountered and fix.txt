@@ -1,0 +1,42 @@
+## 🛠️ Problems Encountered During Development
+
+### 1. **Dynamic Element Identification Issues**
+
+* **Context**: UI elements like buttons or error messages were not consistently found during end-to-end flows but worked when launched directly.
+* **Root Cause**: Timing issues due to dynamic rendering (e.g., delayed page loads, slow animations).
+* **Solution**: Introduced explicit `await` with `page.waitForSelector()` and used more resilient locators like `getByRole`, `getByText`.
+
+---
+
+### 2. **Path Resolution for Imports**
+
+* **Context**: Errors like `Cannot find module '../utils/helpers'` appeared when trying to run tests.
+* **Root Cause**: Relative import paths failed due to nested folder structures or incorrect directory references.
+* **Solution**: Resolved using absolute paths with Node.js config (`module-alias`) or adjusted relative paths consistently.
+
+---
+
+### 3. **Test Data File Access Issues**
+
+* **Context**: Test failed to load JSON files from the `testData` folder.
+* **Root Cause**: File access errors due to incorrect path references or assumptions about working directory in test context.
+* **Solution**: Used `path.resolve(__dirname, '../testData/filename.json')` to dynamically resolve file paths.
+
+---
+
+### 4. **Environment Configuration Not Recognized**
+
+* **Context**: URL or environment value from `config.js` was not being picked up during test runs.
+* **Root Cause**: Config file not being correctly imported or ENV variable override not handled.
+* **Solution**: Added conditional environment setup logic and verified config import paths and export format.
+
+---
+
+### 5. **Playwright Failing in Full Flow, But Passing Individually**
+
+* **Context**: Element found when tested in isolation but not during full navigation flow.
+* **Root Cause**: DOM structure changes after state transitions; element available only after multiple UI events.
+* **Solution**: Improved synchronization by waiting for UI states, and avoided hard-coded timeouts in favor of `expect(locator).toBeVisible()`.
+
+---
+

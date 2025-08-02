@@ -1,0 +1,19 @@
+{
+  "signUp": {
+    "email": "random",  
+    "password": "random"
+  },
+  "login": {
+    "validUser": {
+      "email": "shriga1990@gmail.com",
+      "password": "LimeHome@123"
+    },
+    "invalidUser": {
+      "email": "invalid@gmail.com",
+      "password": "LimeHome@123"
+    }
+  },
+  "booking": {
+    "city": "Salzburg"
+  }
+}

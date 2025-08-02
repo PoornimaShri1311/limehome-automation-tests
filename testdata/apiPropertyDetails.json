@@ -1,0 +1,15 @@
+{
+  "validPropertyId": 129,
+  "propertyDetails": {
+    "id": 129,
+    "name": "aachen vereinsstraße",
+    "descriptionContains": "In the middle of Aachen",
+    "location": {
+      "city": "aachen",
+      "countryCode": "DE",
+      "postalCode": "52062"
+    }
+  },
+  "forbiddenFields": ["password", "token", "apiKey", "auth"],
+  "invalidPropertyId": 999999
+}

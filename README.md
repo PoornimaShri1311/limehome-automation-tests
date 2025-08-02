@@ -1,35 +1,3 @@
-## Limehome challenge - QA Engineer
-
-We appreciate your time and effort in completing the task. We believe that this task will give you an opportunity to showcase your abilities and and will help us to gain a better understanding of your approach to testing.
-
-We understand that your time is valuable, so we kindly request that you do not spend more than 3-4 hours on the challenge.
-
-## Testing Challenge / Front End
-
-Your task is to design and implement some scenarios for Search, Shopping (Add to cart and checkout) through product stories on https://www.limehome.com/suites?property=129&guests=1&rooms=1. Please describe a basic test strategy and implement test scenarios. Implement 3-5 test cases with the highest priority from your point of view. 
-You should provide a detailed test report, including the test cases executed, test results, and any issues encountered during the testing process.
-
-## Testing Challenge / Back End
-Your task is to write a test suite for the API endpoint https://api.limehome.com/properties/v1/public/properties/129.
-
-- Write a test case to verify that the API endpoint returns a 200 OK response status code. If the response status code is anything other than 200, the test should  fail.
-- Write a test case to verify that the API endpoint returns the expected response body. The response body should contain details about the Limehome property with ID 129, including the property name, description, location, and other relevant details.
-
-## What we check:
-- Test coverage: Have you designed sufficient number of test cases to cover various scenarios?
-- Test script quality: Is the automation script well-organized, easy to understand, and maintainable?
-- Documentation: Did you document how to run your tests well? Is your written communication clear and easy-to-understand?
-
-We expect you to send us a link to your code on Gitlab or Github.
-
-### Technology:
-We strongly recommend Playwright, but you can use any testing methodology or tool that you prefer.
-
-If you have any questions or feedback about the challenge, don't hesitate to reach out to us!
-
-Good luck with the challenge! We are looking forward to your solution!
-
-
 ✅ Limehome API & UI Automation Tests
 This project contains automated Playwright tests to validate both public Limehome property API endpoints and UI flows like sign-up. It uses a modular Page Object Model structure and separates API logic, test data, utilities, and test specs for scalability.
 
@@ -45,7 +13,7 @@ Modularized code using Page Object Model and reusable utility helpers
 ✅ 2. Installation & Setup
 📦 Setup Instructions
 Clone the repository:
-git clone <your-fork-url>
+git clone https://github.com/PoornimaShri1311/limehome-automation-tests
 
 Install dependencies:
 npm init -y
@@ -53,8 +21,6 @@ npm install
 npx playwright install
 
 ✅ 3. Test Coverage Description
-🧪 Current Coverage
-
 ✅ API Test Scenarios
 Valid API request returns 200 OK
 
@@ -86,7 +52,7 @@ Asserting correct behavior (e.g., success message or error handling)
 ✅ 4. Directory Structure
 QA-Automation-Engineer-Challenge
 ├── config.js                 # Global configuration (e.g., base URLs)
-├── testData/                # Static or dynamic test data
+├── testData/                 # Static or dynamic test data
 │   └── apiPropertyDetails.json
 │   └── uiTestData.json
 ├── pages/                   # Page Object Model (POM) structure
@@ -149,7 +115,7 @@ npx playwright show-report
   * Run both UI & API tests
   * Generate test reports and artifacts (e.g., HTML reports)
 
----
+
 
 ### ✅ 2. **Multi-Environment Support**
 
@@ -163,7 +129,7 @@ npx playwright show-report
 ENV=staging npx playwright test
 ```
 
----
+
 
 ### ✅ 3. **Test Data Management Improvements**
 
@@ -188,7 +154,7 @@ ENV=staging npx playwright test
   * WebKit
 * Enable Playwright config:
 
-```js
+
 projects: [
   { name: 'Chromium', use: { browserName: 'chromium' } },
   { name: 'Firefox', use: { browserName: 'firefox' } },

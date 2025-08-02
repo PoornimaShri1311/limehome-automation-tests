@@ -1,0 +1,71 @@
+## Basic Test Strategy
+
+### 1. **Scope & Prioritization**
+
+Focus on the critical user journeys that impact business goals:
+
+* User registration (signup)
+* User login validation (including failure scenario)
+* Property search functionality
+* Booking flow (select dates, add to cart, checkout)
+
+### 2. **Test Types**
+
+* **Functional tests** to verify that each feature behaves as expected
+* **Negative tests** for login failure and invalid inputs
+* **UI interaction tests** to simulate realistic user behavior
+* **Performance checks** (optional) for key actions (e.g., page loads, booking confirmation)
+
+### 3. **Test Environment**
+
+* Use a stable test environment or staging URL
+* Use randomized but valid test data for signup and checkout
+* Ensure tests clean up or use unique data to avoid conflicts
+
+### 4. **Automation Best Practices**
+
+* Use Page Object Model to keep tests maintainable
+* Parameterize inputs for reusability
+* Handle waits and retries for dynamic content
+* Log and capture screenshots on failure
+
+---
+
+## High Priority Test Scenarios (3-5)
+
+### 1. **User Sign Up Success**
+
+* Navigate to signup page
+* Fill valid email & password (randomized)
+* Submit form
+* Verify success message appears
+* Verify user is redirected or can continue booking
+
+### 2. **User Login Failure**
+
+* Navigate to login page
+* Enter invalid credentials
+* Submit form
+* Verify error message is displayed
+
+### 3. **Search Property & Open Listing**
+
+* Search for a city (e.g., Salzburg)
+* Select from dropdown suggestions
+* Open first property listing
+* Verify property details page loads correctly
+
+### 4. **Booking Flow: Select Dates & Book**
+
+* On property page, open date picker
+* Select available check-in and check-out dates
+* Click “Book Now” and proceed to cart
+* Add listing to cart and review
+
+### 5. **Checkout with Guest Details & Payment**
+
+* Fill guest info form with randomized valid data
+* Continue to payment page
+
+
+
